@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		898C857F29DF4D7900197B8F /* vaporwaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C857E29DF4D7900197B8F /* vaporwaveApp.swift */; };
+		898C858129DF4D7900197B8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C858029DF4D7900197B8F /* ContentView.swift */; };
+		898C858329DF4D7A00197B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898C858229DF4D7A00197B8F /* Assets.xcassets */; };
+		898C858729DF4D7A00197B8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898C858629DF4D7A00197B8F /* Preview Assets.xcassets */; };
+		898C859129DF4D7A00197B8F /* vaporwaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C859029DF4D7A00197B8F /* vaporwaveTests.swift */; };
+		898C859B29DF4D7B00197B8F /* vaporwaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C859A29DF4D7B00197B8F /* vaporwaveUITests.swift */; };
+		898C859D29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C859C29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		898C858D29DF4D7A00197B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898C857329DF4D7900197B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898C857A29DF4D7900197B8F;
+			remoteInfo = vaporwave;
+		};
+		898C859729DF4D7B00197B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898C857329DF4D7900197B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898C857A29DF4D7900197B8F;
+			remoteInfo = vaporwave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		898C857B29DF4D7900197B8F /* vaporwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vaporwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		898C857E29DF4D7900197B8F /* vaporwaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaporwaveApp.swift; sourceTree = "<group>"; };
+		898C858029DF4D7900197B8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		898C858229DF4D7A00197B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		898C858429DF4D7A00197B8F /* vaporwave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vaporwave.entitlements; sourceTree = "<group>"; };
+		898C858629DF4D7A00197B8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		898C858C29DF4D7A00197B8F /* vaporwaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vaporwaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898C859029DF4D7A00197B8F /* vaporwaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaporwaveTests.swift; sourceTree = "<group>"; };
+		898C859629DF4D7B00197B8F /* vaporwaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vaporwaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898C859A29DF4D7B00197B8F /* vaporwaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaporwaveUITests.swift; sourceTree = "<group>"; };
+		898C859C29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaporwaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		898C857829DF4D7900197B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898C858929DF4D7A00197B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898C859329DF4D7B00197B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		898C857229DF4D7900197B8F = {
+			isa = PBXGroup;
+			children = (
+				898C857D29DF4D7900197B8F /* vaporwave */,
+				898C858F29DF4D7A00197B8F /* vaporwaveTests */,
+				898C859929DF4D7B00197B8F /* vaporwaveUITests */,
+				898C857C29DF4D7900197B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		898C857C29DF4D7900197B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898C857B29DF4D7900197B8F /* vaporwave.app */,
+				898C858C29DF4D7A00197B8F /* vaporwaveTests.xctest */,
+				898C859629DF4D7B00197B8F /* vaporwaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898C857D29DF4D7900197B8F /* vaporwave */ = {
+			isa = PBXGroup;
+			children = (
+				898C857E29DF4D7900197B8F /* vaporwaveApp.swift */,
+				898C858029DF4D7900197B8F /* ContentView.swift */,
+				898C858229DF4D7A00197B8F /* Assets.xcassets */,
+				898C858429DF4D7A00197B8F /* vaporwave.entitlements */,
+				898C858529DF4D7A00197B8F /* Preview Content */,
+			);
+			path = vaporwave;
+			sourceTree = "<group>";
+		};
+		898C858529DF4D7A00197B8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				898C858629DF4D7A00197B8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		898C858F29DF4D7A00197B8F /* vaporwaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				898C859029DF4D7A00197B8F /* vaporwaveTests.swift */,
+			);
+			path = vaporwaveTests;
+			sourceTree = "<group>";
+		};
+		898C859929DF4D7B00197B8F /* vaporwaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				898C859A29DF4D7B00197B8F /* vaporwaveUITests.swift */,
+				898C859C29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift */,
+			);
+			path = vaporwaveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898C857A29DF4D7900197B8F /* vaporwave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898C85A029DF4D7B00197B8F /* Build configuration list for PBXNativeTarget "vaporwave" */;
+			buildPhases = (
+				898C857729DF4D7900197B8F /* Sources */,
+				898C857829DF4D7900197B8F /* Frameworks */,
+				898C857929DF4D7900197B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vaporwave;
+			productName = vaporwave;
+			productReference = 898C857B29DF4D7900197B8F /* vaporwave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		898C858B29DF4D7A00197B8F /* vaporwaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898C85A329DF4D7B00197B8F /* Build configuration list for PBXNativeTarget "vaporwaveTests" */;
+			buildPhases = (
+				898C858829DF4D7A00197B8F /* Sources */,
+				898C858929DF4D7A00197B8F /* Frameworks */,
+				898C858A29DF4D7A00197B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898C858E29DF4D7A00197B8F /* PBXTargetDependency */,
+			);
+			name = vaporwaveTests;
+			productName = vaporwaveTests;
+			productReference = 898C858C29DF4D7A00197B8F /* vaporwaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		898C859529DF4D7B00197B8F /* vaporwaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898C85A629DF4D7B00197B8F /* Build configuration list for PBXNativeTarget "vaporwaveUITests" */;
+			buildPhases = (
+				898C859229DF4D7B00197B8F /* Sources */,
+				898C859329DF4D7B00197B8F /* Frameworks */,
+				898C859429DF4D7B00197B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898C859829DF4D7B00197B8F /* PBXTargetDependency */,
+			);
+			name = vaporwaveUITests;
+			productName = vaporwaveUITests;
+			productReference = 898C859629DF4D7B00197B8F /* vaporwaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		898C857329DF4D7900197B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					898C857A29DF4D7900197B8F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					898C858B29DF4D7A00197B8F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 898C857A29DF4D7900197B8F;
+					};
+					898C859529DF4D7B00197B8F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 898C857A29DF4D7900197B8F;
+					};
+				};
+			};
+			buildConfigurationList = 898C857629DF4D7900197B8F /* Build configuration list for PBXProject "vaporwave" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 898C857229DF4D7900197B8F;
+			productRefGroup = 898C857C29DF4D7900197B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898C857A29DF4D7900197B8F /* vaporwave */,
+				898C858B29DF4D7A00197B8F /* vaporwaveTests */,
+				898C859529DF4D7B00197B8F /* vaporwaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898C857929DF4D7900197B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898C858729DF4D7A00197B8F /* Preview Assets.xcassets in Resources */,
+				898C858329DF4D7A00197B8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898C858A29DF4D7A00197B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898C859429DF4D7B00197B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		898C857729DF4D7900197B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898C858129DF4D7900197B8F /* ContentView.swift in Sources */,
+				898C857F29DF4D7900197B8F /* vaporwaveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898C858829DF4D7A00197B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898C859129DF4D7A00197B8F /* vaporwaveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898C859229DF4D7B00197B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898C859D29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift in Sources */,
+				898C859B29DF4D7B00197B8F /* vaporwaveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		898C858E29DF4D7A00197B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898C857A29DF4D7900197B8F /* vaporwave */;
+			targetProxy = 898C858D29DF4D7A00197B8F /* PBXContainerItemProxy */;
+		};
+		898C859829DF4D7B00197B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898C857A29DF4D7900197B8F /* vaporwave */;
+			targetProxy = 898C859729DF4D7B00197B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		898C859E29DF4D7B00197B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		898C859F29DF4D7B00197B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		898C85A129DF4D7B00197B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vaporwave/vaporwave.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vaporwave/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kbernfeld.vaporwave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		898C85A229DF4D7B00197B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vaporwave/vaporwave.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vaporwave/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kbernfeld.vaporwave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		898C85A429DF4D7B00197B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kbernfeld.vaporwaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vaporwave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vaporwave";
+			};
+			name = Debug;
+		};
+		898C85A529DF4D7B00197B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kbernfeld.vaporwaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vaporwave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vaporwave";
+			};
+			name = Release;
+		};
+		898C85A729DF4D7B00197B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kbernfeld.vaporwaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vaporwave;
+			};
+			name = Debug;
+		};
+		898C85A829DF4D7B00197B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kbernfeld.vaporwaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vaporwave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		898C857629DF4D7900197B8F /* Build configuration list for PBXProject "vaporwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898C859E29DF4D7B00197B8F /* Debug */,
+				898C859F29DF4D7B00197B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898C85A029DF4D7B00197B8F /* Build configuration list for PBXNativeTarget "vaporwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898C85A129DF4D7B00197B8F /* Debug */,
+				898C85A229DF4D7B00197B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898C85A329DF4D7B00197B8F /* Build configuration list for PBXNativeTarget "vaporwaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898C85A429DF4D7B00197B8F /* Debug */,
+				898C85A529DF4D7B00197B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898C85A629DF4D7B00197B8F /* Build configuration list for PBXNativeTarget "vaporwaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898C85A729DF4D7B00197B8F /* Debug */,
+				898C85A829DF4D7B00197B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 898C857329DF4D7900197B8F /* Project object */;
+}
