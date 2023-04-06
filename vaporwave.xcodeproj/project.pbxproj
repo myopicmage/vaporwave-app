@@ -14,6 +14,16 @@
 		898C859129DF4D7A00197B8F /* vaporwaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C859029DF4D7A00197B8F /* vaporwaveTests.swift */; };
 		898C859B29DF4D7B00197B8F /* vaporwaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C859A29DF4D7B00197B8F /* vaporwaveUITests.swift */; };
 		898C859D29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C859C29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift */; };
+		898C85AB29DF4E0200197B8F /* datastore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 898C85A929DF4E0200197B8F /* datastore.xcdatamodeld */; };
+		898C85AD29DF4E4600197B8F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85AC29DF4E4600197B8F /* LoginView.swift */; };
+		898C85B029DF50F200197B8F /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85AF29DF50F200197B8F /* AuthViewModel.swift */; };
+		898C85B329DF556400197B8F /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85B229DF556400197B8F /* Auth.swift */; };
+		898C85B629DF5F1D00197B8F /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85B529DF5F1D00197B8F /* TaskView.swift */; };
+		898C85B829DF6F7000197B8F /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85B729DF6F7000197B8F /* TaskViewModel.swift */; };
+		898C85BA29DF6FB900197B8F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85B929DF6FB900197B8F /* Task.swift */; };
+		898C85BC29DF770F00197B8F /* +String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85BB29DF770F00197B8F /* +String.swift */; };
+		898C85C029DF804F00197B8F /* TaskDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85BF29DF804F00197B8F /* TaskDetail.swift */; };
+		898C85C229DF868600197B8F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C85C129DF868600197B8F /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		898C859629DF4D7B00197B8F /* vaporwaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vaporwaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		898C859A29DF4D7B00197B8F /* vaporwaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaporwaveUITests.swift; sourceTree = "<group>"; };
 		898C859C29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaporwaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		898C85AA29DF4E0200197B8F /* datastore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = datastore.xcdatamodel; sourceTree = "<group>"; };
+		898C85AC29DF4E4600197B8F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		898C85AF29DF50F200197B8F /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		898C85B229DF556400197B8F /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		898C85B529DF5F1D00197B8F /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		898C85B729DF6F7000197B8F /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		898C85B929DF6FB900197B8F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		898C85BB29DF770F00197B8F /* +String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+String.swift"; sourceTree = "<group>"; };
+		898C85BF29DF804F00197B8F /* TaskDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetail.swift; sourceTree = "<group>"; };
+		898C85C129DF868600197B8F /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +115,14 @@
 		898C857D29DF4D7900197B8F /* vaporwave */ = {
 			isa = PBXGroup;
 			children = (
+				898C85B429DF5F0500197B8F /* Views */,
+				898C85B129DF554C00197B8F /* Model */,
 				898C857E29DF4D7900197B8F /* vaporwaveApp.swift */,
-				898C858029DF4D7900197B8F /* ContentView.swift */,
+				898C85A929DF4E0200197B8F /* datastore.xcdatamodeld */,
 				898C858229DF4D7A00197B8F /* Assets.xcassets */,
 				898C858429DF4D7A00197B8F /* vaporwave.entitlements */,
 				898C858529DF4D7A00197B8F /* Preview Content */,
+				898C85BB29DF770F00197B8F /* +String.swift */,
 			);
 			path = vaporwave;
 			sourceTree = "<group>";
@@ -127,6 +150,29 @@
 				898C859C29DF4D7B00197B8F /* vaporwaveUITestsLaunchTests.swift */,
 			);
 			path = vaporwaveUITests;
+			sourceTree = "<group>";
+		};
+		898C85B129DF554C00197B8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				898C85B229DF556400197B8F /* Auth.swift */,
+				898C85AF29DF50F200197B8F /* AuthViewModel.swift */,
+				898C85B729DF6F7000197B8F /* TaskViewModel.swift */,
+				898C85B929DF6FB900197B8F /* Task.swift */,
+				898C85C129DF868600197B8F /* Navigation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		898C85B429DF5F0500197B8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				898C85AC29DF4E4600197B8F /* LoginView.swift */,
+				898C858029DF4D7900197B8F /* ContentView.swift */,
+				898C85B529DF5F1D00197B8F /* TaskView.swift */,
+				898C85BF29DF804F00197B8F /* TaskDetail.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898C85AB29DF4E0200197B8F /* datastore.xcdatamodeld in Sources */,
+				898C85B629DF5F1D00197B8F /* TaskView.swift in Sources */,
+				898C85BC29DF770F00197B8F /* +String.swift in Sources */,
+				898C85C229DF868600197B8F /* Navigation.swift in Sources */,
 				898C858129DF4D7900197B8F /* ContentView.swift in Sources */,
+				898C85AD29DF4E4600197B8F /* LoginView.swift in Sources */,
+				898C85C029DF804F00197B8F /* TaskDetail.swift in Sources */,
+				898C85B029DF50F200197B8F /* AuthViewModel.swift in Sources */,
+				898C85B829DF6F7000197B8F /* TaskViewModel.swift in Sources */,
 				898C857F29DF4D7900197B8F /* vaporwaveApp.swift in Sources */,
+				898C85BA29DF6FB900197B8F /* Task.swift in Sources */,
+				898C85B329DF556400197B8F /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +660,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		898C85A929DF4E0200197B8F /* datastore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				898C85AA29DF4E0200197B8F /* datastore.xcdatamodel */,
+			);
+			currentVersion = 898C85AA29DF4E0200197B8F /* datastore.xcdatamodel */;
+			path = datastore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 898C857329DF4D7900197B8F /* Project object */;
 }
